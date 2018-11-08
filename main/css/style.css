@@ -62,7 +62,7 @@ nav {
   margin-bottom: 30px;
   margin-top: 30px;
   border-radius: 5px;
-  box-shadow: 0 5px 15px 3px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 5px 15px 3px rgba(0, 0, 0, 0.2); }
   .product-item .product-info {
     display: flex;
     flex-direction: column;
