@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:600|Pattaya&subset=cyrillic");
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  height: 65px;
+  background-color: #000;
+  color: #ffffff; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px; }
+  nav ul {
+    display: flex;
+    flex-basis: 55%;
+    justify-content: flex-start;
+    align-items: baseline; }
+  nav li {
+    list-style: none;
+    padding: 20px 40px 16px 40px;
+    box-sizing: border-box; }
+    nav li a {
+      text-decoration: none;
+      color: #ffffff; }
+  nav li:hover {
+    border-bottom: solid 4px white; }
+  nav .basket {
+    padding: 20px 40px;
+    margin-right: 50px; }
+  nav > a {
+    font-family: 'Pattaya', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 10px 10px 60px;
+    color: #ffffff; }
