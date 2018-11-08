@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:600|Pattaya&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&subset=cyrillic");
 * {
   margin: 0;
   padding: 0; }
+
+body {
+  font-family: 'Roboto Slab', serif; }
 
 header {
   height: 65px;
@@ -11,8 +15,8 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  font-family: 'Oswald', sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif; }
   nav ul {
     display: flex;
     flex-basis: 55%;
@@ -36,3 +40,54 @@ nav {
     font-size: 30px;
     padding: 10px 10px 10px 60px;
     color: #ffffff; }
+
+.slider {
+  height: 400px;
+  width: 100%;
+  background-color: lightblue; }
+
+.products {
+  max-height: 1200px;
+  background-color: #e1e1e1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px 15px; }
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  flex-basis: 23.5%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 3px rgba(0, 0, 0, 0.3); }
+  .product-item .product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding: 15px 25px;
+    position: relative; }
+    .product-item .product-info h2 {
+      font-size: 23px; }
+    .product-item .product-info p {
+      font-size: 16px;
+      padding: 10px 0; }
+    .product-item .product-info li {
+      margin-left: 20px;
+      font-size: 16px; }
+  .product-item > img {
+    display: block;
+    width: 100%;
+    padding-top: 10px; }
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  align-self: flex-end;
+  padding: 10px 15px;
+  background-color: #000;
+  border-radius: 5px;
+  margin-top: 10px; }
